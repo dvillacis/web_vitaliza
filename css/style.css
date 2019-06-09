@@ -30,6 +30,11 @@ Last change: 08 june 2018
   General and Typography
 ============================ */
 
+@font-face {
+    font-family: Quicksand;
+    src: url("../fonts/quicksand/Quicksand-Light.otf") format("opentype");
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -44,7 +49,7 @@ body {
     color: #8e8d8d;
     overflow-x: hidden!important;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', serif;
     -webkit-overflow-scrolling: touch;
 	 position: relative;
 }
@@ -63,11 +68,11 @@ h1 {
     line-height: 90px;
     margin-bottom: 20px;
 	letter-spacing:-1px;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', serif;
 }
 h2 {
     font-size: 50px;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', serif;
     margin-bottom: 40px;
     margin-top: 0px;
     font-weight: 700;
@@ -75,7 +80,7 @@ h2 {
     color: #333;
 }
 h3 {
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', serif;
     font-size: 35px;
     margin-top: 0px;
     letter-spacing: 0.3px;
@@ -87,7 +92,7 @@ h4 {
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: 30px 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 h5 {
     font-size: 16px;
@@ -103,7 +108,7 @@ h6 {
     font-size: 20px;
     line-height: 18px;
     font-weight: 700;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', serif;
 	font-style:italic;
     letter-spacing: -0.1px;
 }
@@ -115,7 +120,7 @@ h5 small,
 h6 small {
     font-weight: 800;
     letter-spacing: 0.5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .element1 {
     right: -15%;
@@ -154,7 +159,7 @@ i {
 .small-heading {
     font-size: 1.100em;
     margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     letter-spacing: 0.2px;
     padding-bottom: 15px;
@@ -242,7 +247,7 @@ nav .navbar-toggle {
 nav a {
     font-size: 16px;
 	letter-spacing:0.3px;
-	font-family: Montserrat;
+	font-family: Quicksand;
     padding-bottom: 35px !important;
     padding-top: 35px !important;
 }
