@@ -356,7 +356,7 @@ nav.navbar.shrink ul.dropdown-menu>li>a {
 }
 #intro .italic {
     font-style: italic;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 120px;
     vertical-align: middle;
 }
@@ -649,7 +649,7 @@ nav.navbar.shrink ul.dropdown-menu>li>a {
 #countdown {
     font-size: 40px;
     line-height: 42px;
-    font-family: Playfair Display;
+    font-family: Quicksand;
     font-style: italic;
     font-weight: 400;
 }
@@ -660,7 +660,7 @@ nav.navbar.shrink ul.dropdown-menu>li>a {
 #countdown .displayformat {
     font-size: 20px;
     font-style: normal;
-    font-family: Playfair Display;
+    font-family: Quicksand;
     width: 100%;
     font-weight: 400;
 }
@@ -992,7 +992,7 @@ input:checked + .side-label:after {
 }
 .date-category p {
     color: #fff;
-    font-family: Playfair Display;
+    font-family: Quicksand;
     font-size: 18px;
     font-style: italic;
     line-height: 18px;
@@ -1826,7 +1826,7 @@ blockquote {
 }
 blockquote:before {
     content: '“';
-    font-family: 'Playfair Display';
+    font-family: 'Quicksand';
     font-size: 5.1em;
     font-style: italic;
     line-height: 0.1em;
